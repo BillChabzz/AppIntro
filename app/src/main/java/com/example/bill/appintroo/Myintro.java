@@ -22,8 +22,12 @@ public class Myintro extends AppIntro {
 
         addSlide(AppIntroFragment.newInstance("title",
                 "description"
-                ,R.drawable.icon,
-                Color.parseColor("#2196F3")));
+                ,R.drawable.piedpiper_log,
+                Color.parseColor("#272730")));
+        setBarColor(Color.parseColor("#2E9E48"));
+        setSeparatorColor(Color.parseColor("#2E9E48"));
+        showSkipButton(false);
+
 
     }
 
@@ -36,5 +40,6 @@ public class Myintro extends AppIntro {
     @Override
     public void onDonePressed() {
         Toast.makeText(getApplicationContext(),"Done!", Toast.LENGTH_LONG).show();
+
     }
 }
