@@ -6,17 +6,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="@android:dimen/thumbnail_height"
+        android:id="@+id/imageView"
+        android:src="@drawable/piedpiper_log"
+        android:layout_gravity="center_horizontal"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:minHeight="200dp"
+        android:minWidth="200dp"
+        android:cropToPadding="false"
+        android:layout_marginTop="30dp" />
+
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/email"
         android:hint="@string/reg_email"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:layout_gravity="center_horizontal" />
+
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/reg_password"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:hint="@string/reg_password"
         android:layout_gravity="center_horizontal" />
 
@@ -24,6 +43,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/reg_username"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:id="@+id/reg_username"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_register"
+        android:background="@color/btn_color"
+        android:id="@+id/button"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>

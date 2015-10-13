@@ -49,8 +49,8 @@
         android:layout_height="wrap_content"
         android:background="@color/btn_color"
         android:text="@string/btn_login"
-        android:id="@+id/button"
-        android:textColor="@color/rippelColor"
+        android:id="@+id/lgn_button"
+        android:textColor="#fff"
         android:layout_gravity="center_horizontal" />
     </com.andexert.library.RippleView>
 
@@ -67,8 +67,8 @@
         android:background="@color/btn_color"
         android:layout_marginTop="20dp"
         android:text="@string/btn_register"
-        android:textColor="@color/rippelColor"
-        android:id="@+id/button2"
+        android:textColor="#fff"
+        android:id="@+id/reg_btn"
         android:layout_gravity="center_horizontal" />
     </com.andexert.library.RippleView>
     <TextView
